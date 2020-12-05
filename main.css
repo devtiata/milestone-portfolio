@@ -1,0 +1,155 @@
+/****** BASE STYLES ******/
+
+#container {
+    width: 1400px;
+    margin: auto;
+ }
+ 
+
+body {
+    font-family: 'Montserrat', sans serif; 
+    background: #1f202b; 
+    color: #ffffff;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER STYLES *****/
+
+h1{
+    font-size: 15px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    
+}
+
+header h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 46px;
+    margin-top: 275px;
+}
+
+header h2 span{
+    color: #f70074;
+    font-family: 'Press Start 2p', cursive;
+    font-size: 32px;
+}
+
+header{
+    background-image: url('../img/hero-background.png');
+    background-size: cover;
+    height: 725px;
+    margin-top: auto;
+}
+
+/***** NAV STYLES *****/
+
+nav{
+    float: right;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    font-size: 20px; 
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+h3{
+    color: #f70074;
+}
+
+/***** PORTFOLIO STYLES *****/
+
+#portfolio {
+    margin-left: 50px;
+    padding: 20px;
+}
+
+#portfolio h3{
+    text-align: center;
+}
+
+.rogue {
+    padding: 50px;
+}
+
+.jubilee{
+    padding: 50px;
+}
+
+.recipe{
+    padding: 50px;
+}
+/***** ABOUT STYLES *****/
+
+#about {
+    background-image: url('../img/mysitekeyboard-background2.png');
+    background-size: cover;
+    height: 550px;
+}
+
+#about h4{
+    float: right;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    padding-left: 50px;
+}
+#about p{
+    float: right;
+    font-family: 'Source Code Pro', monospace;
+    padding-left: 100px;
+}
+
+/***** CONTACT STYLES *****/
+
+#contact .full-width {
+    padding: 25px;
+}
+
+#contact{
+    height: 250px;
+    background: #1f202b;
+    margin: 25px;
+    text-align: center;
+}
+
+#contact h3{
+    text-align: center;
+}
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact h5 {
+    text-align: center;
+}
+
+
